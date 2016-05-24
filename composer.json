@@ -1,0 +1,27 @@
+{
+    "name": "douglasgalico/php-bulk-validator",
+    "description": "General PHP Bulk validator with custom error priority log",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Douglas Galico",
+            "email": "douglas.galico@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload-dev": {
+      "classmap": [
+        "tests/TestCase.php"
+      ]
+    },
+    "autoload": {
+      "psr-4": {
+        "DGalic\\Validator\\": "src/Validator"
+      }
+    }
+}
